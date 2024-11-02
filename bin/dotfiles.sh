@@ -32,6 +32,8 @@ fi
 # Create path
 cd "$DOTFILES_DIR"
 
+export LC_ALL="C.UTF-8"
+
 # Update Galaxy
 ansible-galaxy install -r requirements.yml
 
