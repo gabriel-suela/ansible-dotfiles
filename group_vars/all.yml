@@ -1,7 +1,5 @@
 default_roles:
-  - system
   - azure-cli
-  - bat
   - docker
   - git
   - github-cli
@@ -13,18 +11,12 @@ default_roles:
   - kubectl
   - lazydocker
   - lazygit
-  - neovim
   - nvm
   - oh-my-zsh
-  - pyenv
   - ripgrep
-  - rust
-  - ssh
-  - terraform
   - tmux
   - zsh
   - helmfile
   - sops
   - cilium-cli
-  - yarn
   - fzf
